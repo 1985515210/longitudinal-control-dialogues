@@ -5,6 +5,11 @@
    "home_01",
    "home_02",
    "home_03"
+  ],
+  "building": [
+   "building_01",
+   "building_02",
+   "building_03"
   ]
  },
  "files": {
@@ -13,8 +18,35 @@
    "sha256": "86c716da4109480d8517a48788380c8ad0222d48c8e99bd76bd1613da7aca510"
   },
   "README.md": {
-   "bytes": 2277,
-   "sha256": "589342a09f8d0f1e8cd3bd4bcf766c4cb2bdf8318be5bfc5d554323ea11fea4d"
+   "bytes": 3543,
+   "sha256": "972fcce88d3df22a1f205b7d0bd193c72afbf2ef889d302c5d6e311c9bc0cb1a"
+  },
+  "building/building_01/dialogues.jsonl": {
+   "bytes": 180636,
+   "sha256": "41522dba6bc7882f89df3bdc80e697c869f5de3fd545a26228d42132a1ff8c2b",
+   "records": 60
+  },
+  "building/building_01/site.json": {
+   "bytes": 3562,
+   "sha256": "1fdccce3d8cf1285c4b3fea30679d6418df70f8b1c26e5ff8355f350bea9dfe2"
+  },
+  "building/building_02/dialogues.jsonl": {
+   "bytes": 83876,
+   "sha256": "7e967eab386f2d63e498d147d89edf99e18fd8f0519d681deca070a58d4c7d3b",
+   "records": 60
+  },
+  "building/building_02/site.json": {
+   "bytes": 3512,
+   "sha256": "50ed1978aba8e6fbd399d47bf51f9cfc1d4dc65a277e2266fb15e96e1a5bdbc1"
+  },
+  "building/building_03/dialogues.jsonl": {
+   "bytes": 109874,
+   "sha256": "a1337bd7248ef2b3678748796bb0a58873e5723098526d4157791490ff061ab6",
+   "records": 60
+  },
+  "building/building_03/site.json": {
+   "bytes": 3740,
+   "sha256": "f0accafab9acef5d51e66b4a71bd3df578c91802d94b26197c01478f9af8b6f9"
   },
   "home/home_01/dialogues.jsonl": {
    "bytes": 53858,

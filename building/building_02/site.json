@@ -1,0 +1,169 @@
+{
+ "site_id": "building_02",
+ "name": "Middle-school campus, buildings B and C (site 15, five rooms)",
+ "language": "en",
+ "occupants": [
+  {
+   "name": "Facility Manager 1",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 2",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 3",
+   "role": "facility manager"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Building B Open-plan Office",
+   "floor": "1F"
+  },
+  {
+   "name": "Building B Single Office",
+   "floor": "1F"
+  },
+  {
+   "name": "Building C Open-plan Office 1",
+   "floor": "1F"
+  },
+  {
+   "name": "Building C Open-plan Office 2",
+   "floor": "1F"
+  },
+  {
+   "name": "Building C Classroom",
+   "floor": "1F"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Building B Open-plan Office Window 1",
+   "type": "window",
+   "area": "Building B Open-plan Office",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building B Open-plan Office Window 2",
+   "type": "window",
+   "area": "Building B Open-plan Office",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building B Open-plan Office Window 3",
+   "type": "window",
+   "area": "Building B Open-plan Office",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building B Open-plan Office Air Conditioner",
+   "type": "air_conditioner",
+   "area": "Building B Open-plan Office",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setpointC": 24,
+    "fanLevel": "auto"
+   }
+  },
+  {
+   "name": "Building B Single Office Window 1",
+   "type": "window",
+   "area": "Building B Single Office",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building B Single Office Air Conditioner",
+   "type": "air_conditioner",
+   "area": "Building B Single Office",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setpointC": 24,
+    "fanLevel": "auto"
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 1 Window 1",
+   "type": "window",
+   "area": "Building C Open-plan Office 1",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 1 Air Conditioner",
+   "type": "air_conditioner",
+   "area": "Building C Open-plan Office 1",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setpointC": 24,
+    "fanLevel": "auto"
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 2 Window 1",
+   "type": "window",
+   "area": "Building C Open-plan Office 2",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 2 Window 2",
+   "type": "window",
+   "area": "Building C Open-plan Office 2",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 2 Window 3",
+   "type": "window",
+   "area": "Building C Open-plan Office 2",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 2 Window 4",
+   "type": "window",
+   "area": "Building C Open-plan Office 2",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Building C Open-plan Office 2 Air Conditioner",
+   "type": "air_conditioner",
+   "area": "Building C Open-plan Office 2",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setpointC": 24,
+    "fanLevel": "auto"
+   }
+  },
+  {
+   "name": "Building C Classroom Window 1",
+   "type": "window",
+   "area": "Building C Classroom",
+   "default_state": {
+    "on": false
+   }
+  }
+ ],
+ "opening_hours": "07:30-17:30",
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}

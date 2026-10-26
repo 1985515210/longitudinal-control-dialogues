@@ -1,0 +1,215 @@
+{
+ "site_id": "building_01",
+ "name": "University office building (site 05, five offices)",
+ "language": "en",
+ "occupants": [
+  {
+   "name": "Facility Manager 1",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 2",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 3",
+   "role": "facility manager"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Office A",
+   "floor": "1F"
+  },
+  {
+   "name": "Office B",
+   "floor": "1F"
+  },
+  {
+   "name": "Office C",
+   "floor": "1F"
+  },
+  {
+   "name": "Office D",
+   "floor": "1F"
+  },
+  {
+   "name": "Office E",
+   "floor": "1F"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Office A Lighting",
+   "type": "lighting",
+   "area": "Office A",
+   "default_state": {
+    "on": false,
+    "brightnessPct": 60
+   }
+  },
+  {
+   "name": "Office A Window",
+   "type": "window",
+   "area": "Office A",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office A Workstation Plug 1",
+   "type": "plug",
+   "area": "Office A",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office A Door",
+   "type": "door",
+   "area": "Office A",
+   "default_state": {
+    "locked": true,
+    "grants": []
+   }
+  },
+  {
+   "name": "Office B Lighting",
+   "type": "lighting",
+   "area": "Office B",
+   "default_state": {
+    "on": false,
+    "brightnessPct": 60
+   }
+  },
+  {
+   "name": "Office B Window",
+   "type": "window",
+   "area": "Office B",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office B Workstation Plug 2",
+   "type": "plug",
+   "area": "Office B",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office B Door",
+   "type": "door",
+   "area": "Office B",
+   "default_state": {
+    "locked": true,
+    "grants": []
+   }
+  },
+  {
+   "name": "Office C Lighting",
+   "type": "lighting",
+   "area": "Office C",
+   "default_state": {
+    "on": false,
+    "brightnessPct": 60
+   }
+  },
+  {
+   "name": "Office C Window",
+   "type": "window",
+   "area": "Office C",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office C Workstation Plug 1",
+   "type": "plug",
+   "area": "Office C",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office C Door",
+   "type": "door",
+   "area": "Office C",
+   "default_state": {
+    "locked": true,
+    "grants": []
+   }
+  },
+  {
+   "name": "Office D Lighting",
+   "type": "lighting",
+   "area": "Office D",
+   "default_state": {
+    "on": false,
+    "brightnessPct": 60
+   }
+  },
+  {
+   "name": "Office D Window",
+   "type": "window",
+   "area": "Office D",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office D Workstation Plug 2",
+   "type": "plug",
+   "area": "Office D",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office D Door",
+   "type": "door",
+   "area": "Office D",
+   "default_state": {
+    "locked": true,
+    "grants": []
+   }
+  },
+  {
+   "name": "Office E Lighting",
+   "type": "lighting",
+   "area": "Office E",
+   "default_state": {
+    "on": false,
+    "brightnessPct": 60
+   }
+  },
+  {
+   "name": "Office E Window",
+   "type": "window",
+   "area": "Office E",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office E Workstation Plug 1",
+   "type": "plug",
+   "area": "Office E",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office E Door",
+   "type": "door",
+   "area": "Office E",
+   "default_state": {
+    "locked": true,
+    "grants": []
+   }
+  }
+ ],
+ "opening_hours": "08:00-19:00",
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}

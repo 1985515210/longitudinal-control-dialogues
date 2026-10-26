@@ -1,0 +1,233 @@
+{
+ "site_id": "building_03",
+ "name": "Naturally ventilated office building (site 24, fifteen offices)",
+ "language": "en",
+ "occupants": [
+  {
+   "name": "Facility Manager 1",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 2",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 3",
+   "role": "facility manager"
+  },
+  {
+   "name": "Facility Manager 4",
+   "role": "facility manager"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Office 1",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 2",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 3",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 4",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 5",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 6",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 7",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 8",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 9",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 10",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 12",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 14",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 15",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 16",
+   "floor": "1F"
+  },
+  {
+   "name": "Office 17",
+   "floor": "1F"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Office 1 Window 1",
+   "type": "window",
+   "area": "Office 1",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 2 Window 3",
+   "type": "window",
+   "area": "Office 2",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 3 Window 5",
+   "type": "window",
+   "area": "Office 3",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 4 Window 7",
+   "type": "window",
+   "area": "Office 4",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 4 Fresh-air Ventilation",
+   "type": "ventilation",
+   "area": "Office 4",
+   "default_state": {
+    "airflowPct": 30
+   }
+  },
+  {
+   "name": "Office 5 Window 9",
+   "type": "window",
+   "area": "Office 5",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 6 Window 11",
+   "type": "window",
+   "area": "Office 6",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 7 Window 13",
+   "type": "window",
+   "area": "Office 7",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 7 Fresh-air Ventilation",
+   "type": "ventilation",
+   "area": "Office 7",
+   "default_state": {
+    "airflowPct": 30
+   }
+  },
+  {
+   "name": "Office 8 Window 15",
+   "type": "window",
+   "area": "Office 8",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 9 Window 17",
+   "type": "window",
+   "area": "Office 9",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 10 Window 19",
+   "type": "window",
+   "area": "Office 10",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 12 Window 23",
+   "type": "window",
+   "area": "Office 12",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 14 Window 27",
+   "type": "window",
+   "area": "Office 14",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 15 Window 29",
+   "type": "window",
+   "area": "Office 15",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 16 Window 31",
+   "type": "window",
+   "area": "Office 16",
+   "default_state": {
+    "on": false
+   }
+  },
+  {
+   "name": "Office 16 Fresh-air Ventilation",
+   "type": "ventilation",
+   "area": "Office 16",
+   "default_state": {
+    "airflowPct": 30
+   }
+  },
+  {
+   "name": "Office 17 Window 32",
+   "type": "window",
+   "area": "Office 17",
+   "default_state": {
+    "on": false
+   }
+  }
+ ],
+ "opening_hours": "07:00-19:00",
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}
