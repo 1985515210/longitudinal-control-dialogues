@@ -40,7 +40,7 @@ The three sites and the timing of their everyday requests are adapted from in-si
 
 Dong, B. et al. A global building occupant behavior database. *Scientific Data* 9, 369 (2022). https://doi.org/10.1038/s41597-022-01475-3
 
-The original records are available from https://ashraeobdatabase.com under the terms stated there. The requests themselves, the facility managers, the device names and all preference-related turns are synthetic.
+The original records are published on figshare (https://doi.org/10.6084/m9.figshare.16920118.v6) and can be queried at https://ashraeobdatabase.com, under the terms stated there. The requests themselves, the facility managers, the device names and all preference-related turns are synthetic.
 
 ## Common conventions
 
