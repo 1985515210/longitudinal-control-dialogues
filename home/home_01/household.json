@@ -1,0 +1,168 @@
+{
+ "home_id": "home_01",
+ "description": "Single resident, 1-bedroom apartment",
+ "language": "en",
+ "residents": [
+  {
+   "id": "ari",
+   "name": "Ari",
+   "schedule": {
+    "weekday": {
+     "wake": "07:00",
+     "leave": "08:30",
+     "return": "18:00",
+     "sleep": "23:00"
+    },
+    "weekend": {
+     "wake": "09:00",
+     "leave": null,
+     "return": null,
+     "sleep": "00:00"
+    }
+   }
+  }
+ ],
+ "rooms": [
+  {
+   "name": "Living Room",
+   "floor": "1F"
+  },
+  {
+   "name": "Bedroom",
+   "floor": "1F"
+  },
+  {
+   "name": "Kitchen",
+   "floor": "1F"
+  },
+  {
+   "name": "Bathroom",
+   "floor": "1F"
+  },
+  {
+   "name": "Balcony",
+   "floor": "1F"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Living Room Main Light",
+   "type": "light",
+   "room": "Living Room",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 80,
+    "colorTemp": 4000
+   }
+  },
+  {
+   "name": "Bedroom Main Light",
+   "type": "light",
+   "room": "Bedroom",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 60,
+    "colorTemp": 3000
+   }
+  },
+  {
+   "name": "Kitchen Light",
+   "type": "light",
+   "room": "Kitchen",
+   "dimmable": false,
+   "color_temperature": false,
+   "default_state": {
+    "on": false,
+    "brightness": 100,
+    "colorTemp": 5000
+   }
+  },
+  {
+   "name": "Living Room Reading Light",
+   "type": "light",
+   "room": "Living Room",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 50,
+    "colorTemp": 3500
+   }
+  },
+  {
+   "name": "Bedroom Bedside Light",
+   "type": "light",
+   "room": "Bedroom",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 30,
+    "colorTemp": 2700
+   }
+  },
+  {
+   "name": "Living Room AC",
+   "type": "aircon",
+   "room": "Living Room",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setTemp": 26,
+    "fanSpeed": "auto"
+   }
+  },
+  {
+   "name": "Bedroom AC",
+   "type": "aircon",
+   "room": "Bedroom",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setTemp": 26,
+    "fanSpeed": "auto"
+   }
+  },
+  {
+   "name": "Living Room Curtain",
+   "type": "curtain",
+   "room": "Living Room",
+   "default_state": {
+    "position": 100
+   }
+  },
+  {
+   "name": "Bedroom Curtain",
+   "type": "curtain",
+   "room": "Bedroom",
+   "default_state": {
+    "position": 100
+   }
+  }
+ ],
+ "scenes": [
+  {
+   "name": "Good Morning",
+   "actions": [
+    {
+     "device": "Bedroom Curtain",
+     "params": {
+      "position": 100
+     }
+    },
+    {
+     "device": "Bedroom Main Light",
+     "params": {
+      "on": true,
+      "brightness": 80
+     }
+    }
+   ]
+  }
+ ],
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}

@@ -1,0 +1,47 @@
+{
+ "dataset": "longitudinal-control-dialogues",
+ "domains": {
+  "home": [
+   "home_01",
+   "home_02",
+   "home_03"
+  ]
+ },
+ "files": {
+  "LICENSE": {
+   "bytes": 474,
+   "sha256": "86c716da4109480d8517a48788380c8ad0222d48c8e99bd76bd1613da7aca510"
+  },
+  "README.md": {
+   "bytes": 2277,
+   "sha256": "589342a09f8d0f1e8cd3bd4bcf766c4cb2bdf8318be5bfc5d554323ea11fea4d"
+  },
+  "home/home_01/dialogues.jsonl": {
+   "bytes": 53858,
+   "sha256": "a78c8a02be09031feb64a9da5df0137ebd2ee5f780e801672d2605e84f07b66b",
+   "records": 60
+  },
+  "home/home_01/household.json": {
+   "bytes": 2847,
+   "sha256": "c48271862885596e80d1440f04c4240f183cd14f2809636415b9325935e953b2"
+  },
+  "home/home_02/dialogues.jsonl": {
+   "bytes": 56702,
+   "sha256": "bd6170f6cc7e47bffa35ed271986cd6133812339200a893f82ec300e0da6f7be",
+   "records": 60
+  },
+  "home/home_02/household.json": {
+   "bytes": 3638,
+   "sha256": "ff4589048be81ff48c108d50c33c0aaa669a364b74d39f3c03564f4a5a066eb2"
+  },
+  "home/home_03/dialogues.jsonl": {
+   "bytes": 73176,
+   "sha256": "eacad3ada10e37c757c66afa0664199ba7d225d00390606d9272dac23135bf90",
+   "records": 60
+  },
+  "home/home_03/household.json": {
+   "bytes": 4240,
+   "sha256": "38c0f3794c7bc44d58e728c8ad7ab7f498dfe22f7ce794a14b07d13896ede86d"
+  }
+ }
+}

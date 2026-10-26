@@ -1,0 +1,254 @@
+{
+ "home_id": "home_03",
+ "description": "Three-person household with child, most rooms and devices",
+ "language": "en",
+ "residents": [
+  {
+   "id": "leo",
+   "name": "Leo",
+   "schedule": {
+    "weekday": {
+     "wake": "06:30",
+     "leave": "07:30",
+     "return": "19:00",
+     "sleep": "23:00"
+    },
+    "weekend": {
+     "wake": "08:00",
+     "leave": null,
+     "return": null,
+     "sleep": "23:30"
+    }
+   }
+  },
+  {
+   "id": "sara",
+   "name": "Sara",
+   "schedule": {
+    "weekday": {
+     "wake": "07:00",
+     "leave": "08:30",
+     "return": "17:00",
+     "sleep": "23:00"
+    },
+    "weekend": {
+     "wake": "08:30",
+     "leave": null,
+     "return": null,
+     "sleep": "23:30"
+    }
+   }
+  },
+  {
+   "id": "nina",
+   "name": "Nina",
+   "schedule": {
+    "weekday": {
+     "wake": "07:00",
+     "leave": "08:00",
+     "return": "16:00",
+     "sleep": "21:00"
+    },
+    "weekend": {
+     "wake": "08:00",
+     "leave": null,
+     "return": null,
+     "sleep": "21:30"
+    }
+   }
+  }
+ ],
+ "rooms": [
+  {
+   "name": "Living Room",
+   "floor": "1F"
+  },
+  {
+   "name": "Master Bedroom",
+   "floor": "2F"
+  },
+  {
+   "name": "Nina's Room",
+   "floor": "2F"
+  },
+  {
+   "name": "Kitchen",
+   "floor": "1F"
+  },
+  {
+   "name": "Dining Room",
+   "floor": "1F"
+  },
+  {
+   "name": "Study",
+   "floor": "2F"
+  },
+  {
+   "name": "Bathroom",
+   "floor": "1F"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Living Room Light",
+   "type": "light",
+   "room": "Living Room",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 80,
+    "colorTemp": 4000
+   }
+  },
+  {
+   "name": "Master Bedroom Light",
+   "type": "light",
+   "room": "Master Bedroom",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 60,
+    "colorTemp": 3000
+   }
+  },
+  {
+   "name": "Master Bedroom Bedside Light",
+   "type": "light",
+   "room": "Master Bedroom",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 30,
+    "colorTemp": 2700
+   }
+  },
+  {
+   "name": "Nina's Room Light",
+   "type": "light",
+   "room": "Nina's Room",
+   "dimmable": true,
+   "color_temperature": true,
+   "default_state": {
+    "on": false,
+    "brightness": 50,
+    "colorTemp": 3500
+   }
+  },
+  {
+   "name": "Kitchen Light",
+   "type": "light",
+   "room": "Kitchen",
+   "dimmable": false,
+   "color_temperature": false,
+   "default_state": {
+    "on": false,
+    "brightness": 100,
+    "colorTemp": 5000
+   }
+  },
+  {
+   "name": "Living Room AC",
+   "type": "aircon",
+   "room": "Living Room",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setTemp": 26,
+    "fanSpeed": "auto"
+   }
+  },
+  {
+   "name": "Master Bedroom AC",
+   "type": "aircon",
+   "room": "Master Bedroom",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setTemp": 26,
+    "fanSpeed": "auto"
+   }
+  },
+  {
+   "name": "Nina's Room AC",
+   "type": "aircon",
+   "room": "Nina's Room",
+   "default_state": {
+    "on": false,
+    "mode": "cool",
+    "setTemp": 26,
+    "fanSpeed": "auto"
+   }
+  },
+  {
+   "name": "Living Room Curtain",
+   "type": "curtain",
+   "room": "Living Room",
+   "default_state": {
+    "position": 100
+   }
+  },
+  {
+   "name": "Master Bedroom Curtain",
+   "type": "curtain",
+   "room": "Master Bedroom",
+   "default_state": {
+    "position": 100
+   }
+  }
+ ],
+ "scenes": [
+  {
+   "name": "Nina's Bedtime",
+   "actions": [
+    {
+     "device": "Nina's Room Light",
+     "params": {
+      "on": false
+     }
+    },
+    {
+     "device": "Nina's Room AC",
+     "params": {
+      "on": true,
+      "setTemp": 26,
+      "mode": "cool",
+      "fanSpeed": "low"
+     }
+    }
+   ]
+  },
+  {
+   "name": "All Off",
+   "actions": [
+    {
+     "device": "Living Room Light",
+     "params": {
+      "on": false
+     }
+    },
+    {
+     "device": "Master Bedroom Light",
+     "params": {
+      "on": false
+     }
+    },
+    {
+     "device": "Nina's Room Light",
+     "params": {
+      "on": false
+     }
+    },
+    {
+     "device": "Kitchen Light",
+     "params": {
+      "on": false
+     }
+    }
+   ]
+  }
+ ],
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}
