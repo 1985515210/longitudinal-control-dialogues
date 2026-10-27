@@ -229,5 +229,14 @@
   }
  ],
  "opening_hours": "07:00-19:00",
- "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+ "daily_reset": "Every day starts from the default states above, except the days listed in initial_state_overrides; the assistant's memory is never reset.",
+ "initial_state_overrides": [
+  {
+   "day": 14,
+   "device": "Office 16 Window 31",
+   "state": {
+    "on": true
+   }
+  }
+ ]
 }

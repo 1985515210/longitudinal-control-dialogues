@@ -4,7 +4,7 @@ Long-running conversations between the occupants of a space and an assistant tha
 
 Three domains are included: homes, office/school buildings and a mineral flotation plant.
 
-All turns are requests from occupants, in time order, with the place the occupant is in at the time. The same four-phase design is used in every conversation (days 1–7, 8–20, 21–40, 41–60): occupants first state their preferences explicitly, then refer to them in shortened form, later state competing preferences for the same situation, revise some of them explicitly, and revisit settings after long gaps; ordinary everyday requests run through the whole period. The exact construction and the evaluation protocol are described in the accompanying paper.
+All turns are requests from occupants, in time order, with the place the occupant is in at the time. Over the 60 days, occupants state their preferences explicitly, refer to them in shortened form, state competing preferences for the same situation, revise some of them explicitly, and revisit settings after long gaps; ordinary everyday requests run through the whole period. The schedule of each domain, the exact construction and the evaluation protocol are described in the accompanying paper.
 
 ## Home domain (`home/`)
 
@@ -32,7 +32,7 @@ Three sites, each run by a small team of facility managers who ask the assistant
 | building_02 | Middle-school campus, buildings B and C (site 15, five rooms) | 3 | 5 | 14 | 60 | 425 | 67 |
 | building_03 | Naturally ventilated office building (site 24, fifteen offices) | 4 | 15 | 18 | 60 | 693 | 68 |
 
-`building/<site>/site.json`: the occupants (name, role), the areas, the devices (name, type, area, default state) and the opening hours.
+`building/<site>/site.json`: the occupants (name, role), the areas, the devices (name, type, area, default state), the opening hours and `initial_state_overrides`, the days on which a device starts in a state other than its default.
 
 `building/<site>/dialogues.jsonl`: one line per day with the day's `turns`: `id`, `time`, `speaker`, `area`, `utterance`.
 
@@ -40,7 +40,7 @@ The three sites and the timing of their everyday requests are adapted from in-si
 
 Dong, B. et al. A global building occupant behavior database. *Scientific Data* 9, 369 (2022). https://doi.org/10.1038/s41597-022-01475-3
 
-The original records are published on figshare (https://doi.org/10.6084/m9.figshare.16920118.v6) and can be queried at https://ashraeobdatabase.com, under the terms stated there. The requests themselves, the facility managers, the device names and all preference-related turns are synthetic.
+The original records are published on figshare under CC BY 4.0 (https://doi.org/10.6084/m9.figshare.16920118.v6) and can be queried at https://ashraeobdatabase.com. The requests themselves, the facility managers, the device names and all preference-related turns are synthetic.
 
 ## Factory domain (`factory/`)
 
@@ -60,19 +60,19 @@ The timing and the target values of the everyday requests are inferred by a fixe
 
 ## Gold labels
 
-`<domain>/<environment>/gold.jsonl`: one line per scored request. `id`; `expect`, either `execute` or `ask`; for `execute`, `action` (`device`, `action`, `params`) and `recall`, the slots that are not in the request and must come from earlier turns; for `ask`, `ask`, the slots to ask about; `habit`, the standing preference the request belongs to.
+`<domain>/<environment>/gold.jsonl`: one line per scored request. `id`; `expect`, either `execute` or `ask`; `missing`, the slots that are not stated in the request; for `execute`, `action` (`device`, `action`, `params`); for `ask`, `ask`, the slots to ask about; `habit`, the standing preference the request belongs to.
 
 `<domain>/<environment>/habits.json`: the standing preferences. `id`; `teaching`, the turns that state the preference in full; `correction` (`turn`, `old`, `new`) where the preference is revised.
 
-Slot names are `device`, `device_type`, `area`, `action` and the parameter names used in `params`.
+Slot names are `device`, `device_type`, `area`, `action` and the parameter names used in `params`. The parameters `speed` and `percentage` (home) correspond to the state keys `fanSpeed` and `position`; `openingPct` (building) sets the opening of a window whose state records only `on`.
 
 ## Common conventions
 
-- Every day starts from the default device states given in the household, site or plant file; the assistant's memory is never reset.
+- Every day starts from the default device states given in the household, site or plant file, except the days listed in `initial_state_overrides`; the assistant's memory is never reset.
 - `id` is `<environment>_d<day>_t<index>` (day and index within the day, both two digits).
-- `area` (or `room`) is `null` when the speaker is not in any of the listed areas at the time of the request.
+- `area` (or `room`) is `null` when the request carries no location.
 - A day without requests has an empty `turns` list (factory_01 (2), factory_02 (2), factory_03 (2)).
-- `MANIFEST.json` lists every file with its size, record count and SHA-256.
+- `MANIFEST.json` lists every other file with its size and SHA-256, and the record count of each JSONL file.
 
 ## License
 

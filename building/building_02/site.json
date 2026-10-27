@@ -165,5 +165,28 @@
   }
  ],
  "opening_hours": "07:30-17:30",
- "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+ "daily_reset": "Every day starts from the default states above, except the days listed in initial_state_overrides; the assistant's memory is never reset.",
+ "initial_state_overrides": [
+  {
+   "day": 10,
+   "device": "Building C Open-plan Office 1 Window 1",
+   "state": {
+    "on": true
+   }
+  },
+  {
+   "day": 11,
+   "device": "Building C Open-plan Office 1 Window 1",
+   "state": {
+    "on": true
+   }
+  },
+  {
+   "day": 14,
+   "device": "Building C Open-plan Office 1 Window 1",
+   "state": {
+    "on": true
+   }
+  }
+ ]
 }
