@@ -2,7 +2,7 @@
 
 Long-running conversations between the occupants of a space and an assistant that controls the devices in it. Each conversation covers 60 consecutive days, so that preferences stated early can be referred to, revised and relied on later.
 
-Two domains are included: homes and office/school buildings. A third domain (a factory) will be added in the same form.
+Three domains are included: homes, office/school buildings and a mineral flotation plant.
 
 All turns are requests from occupants, in time order, with the place the occupant is in at the time. The same four-phase design is used in every conversation (days 1–7, 8–20, 21–40, 41–60): occupants first state their preferences explicitly, then refer to them in shortened form, later state competing preferences for the same situation, revise some of them explicitly, and revisit settings after long gaps; ordinary everyday requests run through the whole period. The exact construction and the evaluation protocol are described in the accompanying paper.
 
@@ -42,10 +42,28 @@ Dong, B. et al. A global building occupant behavior database. *Scientific Data* 
 
 The original records are published on figshare (https://doi.org/10.6084/m9.figshare.16920118.v6) and can be queried at https://ashraeobdatabase.com, under the terms stated there. The requests themselves, the facility managers, the device names and all preference-related turns are synthetic.
 
+## Factory domain (`factory/`)
+
+Three scenarios of one mineral flotation plant, each covering a group of flotation columns operated by four shift crews who ask the assistant to set the air-flow and froth-level setpoints of the columns.
+
+| Scenario | Columns | Operators | Areas | Devices | Days | Turns |
+|---|---|---|---|---|---|---|
+| factory_01 | 01, 02, 03 | 4 | 3 | 6 | 60 | 830 |
+| factory_02 | 04, 05 | 4 | 2 | 4 | 60 | 300 |
+| factory_03 | 06, 07 | 4 | 2 | 4 | 60 | 326 |
+
+`factory/<scenario>/plant.json`: the operators (name, role), the shift roster, the areas (one per flotation column) and the devices (name, type, area, unit, admissible range, default state).
+
+`factory/<scenario>/dialogues.jsonl`: one line per day with the day's `turns`: `id`, `time`, `speaker`, `area`, `utterance`.
+
+The timing and the target values of the everyday requests are inferred by a fixed rule from the measured air flow and froth level of the seven flotation columns in the public dataset "Quality Prediction in a Mining Process", published on Kaggle by Eduardo Magalhães Oliveira in 2017 under CC0 (https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process), between 2017-04-12 and 2017-06-10. The crews, the wording of all requests and all preference-related turns are synthetic.
+
 ## Common conventions
 
-- Every day starts from the default device states given in the site or household file; the assistant's memory is never reset.
-- `id` is `<site>_d<day>_t<index>` (day and index within the day, both two digits).
+- Every day starts from the default device states given in the household, site or plant file; the assistant's memory is never reset.
+- `id` is `<environment>_d<day>_t<index>` (day and index within the day, both two digits).
+- `area` (or `room`) is `null` when the speaker is not in any of the listed areas at the time of the request.
+- A day without requests has an empty `turns` list (factory_01 (2), factory_02 (2), factory_03 (2)).
 - `MANIFEST.json` lists every file with its size, record count and SHA-256.
 
 ## License

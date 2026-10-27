@@ -1,0 +1,87 @@
+{
+ "plant_id": "factory_02",
+ "name": "Flotation plant scenario 2 (columns 04, 05)",
+ "language": "en",
+ "operators": [
+  {
+   "name": "Crew A operator",
+   "role": "operator"
+  },
+  {
+   "name": "Crew B operator",
+   "role": "operator"
+  },
+  {
+   "name": "Crew C operator",
+   "role": "operator"
+  },
+  {
+   "name": "Crew D operator",
+   "role": "operator"
+  }
+ ],
+ "shift_roster": "3 x 8 h shifts, 4 crews, 2-2-2-off rotation",
+ "areas": [
+  {
+   "name": "Column 04"
+  },
+  {
+   "name": "Column 05"
+  }
+ ],
+ "devices": [
+  {
+   "name": "Column 04 Air Flow",
+   "type": "air_flow_setpoint",
+   "area": "Column 04",
+   "unit": "Nm3/h",
+   "range": [
+    150,
+    350
+   ],
+   "default_state": {
+    "airFlowNm3h": 250
+   }
+  },
+  {
+   "name": "Column 04 Froth Level",
+   "type": "froth_level_setpoint",
+   "area": "Column 04",
+   "unit": "mm",
+   "range": [
+    100,
+    900
+   ],
+   "default_state": {
+    "levelMm": 450
+   }
+  },
+  {
+   "name": "Column 05 Air Flow",
+   "type": "air_flow_setpoint",
+   "area": "Column 05",
+   "unit": "Nm3/h",
+   "range": [
+    150,
+    350
+   ],
+   "default_state": {
+    "airFlowNm3h": 250
+   }
+  },
+  {
+   "name": "Column 05 Froth Level",
+   "type": "froth_level_setpoint",
+   "area": "Column 05",
+   "unit": "mm",
+   "range": [
+    100,
+    900
+   ],
+   "default_state": {
+    "levelMm": 450
+   }
+  }
+ ],
+ "daily_reset": "Every day starts from the default states above; the assistant's memory is never reset."
+}
