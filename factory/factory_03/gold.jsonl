@@ -1,0 +1,53 @@
+{"id": "factory_03_d06_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["levelMm"], "habit": "factory_03_h02"}
+{"id": "factory_03_d06_t02", "expect": "execute", "action": {"device": "Column 06 Froth Level", "action": "set", "params": {"levelMm": 453.0}}, "recall": ["levelMm"], "habit": "factory_03_h04"}
+{"id": "factory_03_d06_t04", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h01"}
+{"id": "factory_03_d06_t05", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h03"}
+{"id": "factory_03_d08_t03", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["levelMm"], "habit": "factory_03_h02"}
+{"id": "factory_03_d08_t04", "expect": "execute", "action": {"device": "Column 06 Froth Level", "action": "set", "params": {"levelMm": 453.0}}, "recall": ["levelMm"], "habit": "factory_03_h04"}
+{"id": "factory_03_d08_t06", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h01"}
+{"id": "factory_03_d08_t07", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h03"}
+{"id": "factory_03_d13_t03", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 268.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d14_t21", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 268.0}}, "recall": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d15_t05", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 293.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h09"}
+{"id": "factory_03_d15_t06", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 278.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h08"}
+{"id": "factory_03_d19_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["device", "device_type", "levelMm"], "habit": "factory_03_h02"}
+{"id": "factory_03_d19_t02", "expect": "execute", "action": {"device": "Column 06 Froth Level", "action": "set", "params": {"levelMm": 453.0}}, "recall": ["device", "device_type", "levelMm"], "habit": "factory_03_h04"}
+{"id": "factory_03_d19_t03", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h01"}
+{"id": "factory_03_d19_t04", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h03"}
+{"id": "factory_03_d25_t01", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d27_t01", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d31_t01", "expect": "ask", "ask": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d31_t02", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d32_t01", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d32_t02", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 458.0}}, "recall": ["levelMm"], "habit": "factory_03_h05"}
+{"id": "factory_03_d33_t01", "expect": "ask", "ask": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d35_t03", "expect": "ask", "ask": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d43_t08", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 283.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h06"}
+{"id": "factory_03_d43_t09", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 283.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h06"}
+{"id": "factory_03_d43_t10", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 463.0}}, "recall": ["levelMm"], "habit": "factory_03_h07"}
+{"id": "factory_03_d43_t11", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 463.0}}, "recall": ["levelMm"], "habit": "factory_03_h07"}
+{"id": "factory_03_d47_t01", "expect": "execute", "action": {"device": "Column 06 Froth Level", "action": "set", "params": {"levelMm": 488.0}}, "recall": ["device", "device_type", "levelMm"], "habit": "factory_03_h09"}
+{"id": "factory_03_d47_t02", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 283.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h08"}
+{"id": "factory_03_d51_t03", "expect": "ask", "ask": ["device", "device_type"], "habit": "factory_03_h09"}
+{"id": "factory_03_d51_t04", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h08"}
+{"id": "factory_03_d54_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["levelMm"], "habit": "factory_03_h02"}
+{"id": "factory_03_d54_t02", "expect": "ask", "ask": ["levelMm"], "habit": "factory_03_h04"}
+{"id": "factory_03_d54_t03", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h01"}
+{"id": "factory_03_d54_t04", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h03"}
+{"id": "factory_03_d55_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["device", "device_type", "levelMm"], "habit": "factory_03_h02"}
+{"id": "factory_03_d55_t02", "expect": "ask", "ask": ["levelMm"], "habit": "factory_03_h04"}
+{"id": "factory_03_d55_t03", "expect": "ask", "ask": ["device", "device_type"], "habit": "factory_03_h01"}
+{"id": "factory_03_d55_t04", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h03"}
+{"id": "factory_03_d56_t01", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 283.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h06"}
+{"id": "factory_03_d56_t02", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 463.0}}, "recall": ["levelMm"], "habit": "factory_03_h07"}
+{"id": "factory_03_d57_t02", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["levelMm"], "habit": "factory_03_h11"}
+{"id": "factory_03_d57_t03", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h11"}
+{"id": "factory_03_d57_t16", "expect": "ask", "ask": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h05"}
+{"id": "factory_03_d58_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["device", "device_type", "levelMm"], "habit": "factory_03_h11"}
+{"id": "factory_03_d58_t02", "expect": "ask", "ask": ["device", "device_type"], "habit": "factory_03_h11"}
+{"id": "factory_03_d58_t03", "expect": "ask", "ask": ["device", "device_type", "levelMm"], "habit": "factory_03_h09"}
+{"id": "factory_03_d58_t04", "expect": "ask", "ask": ["airFlowNm3h"], "habit": "factory_03_h08"}
+{"id": "factory_03_d60_t01", "expect": "execute", "action": {"device": "Column 07 Froth Level", "action": "set", "params": {"levelMm": 438.0}}, "recall": ["levelMm"], "habit": "factory_03_h11"}
+{"id": "factory_03_d60_t02", "expect": "ask", "ask": ["levelMm"], "habit": "factory_03_h11"}
+{"id": "factory_03_d60_t03", "expect": "execute", "action": {"device": "Column 07 Air Flow", "action": "set", "params": {"airFlowNm3h": 258.0}}, "recall": ["airFlowNm3h"], "habit": "factory_03_h11"}
+{"id": "factory_03_d60_t04", "expect": "execute", "action": {"device": "Column 06 Air Flow", "action": "set", "params": {"airFlowNm3h": 248.0}}, "recall": ["device", "device_type", "airFlowNm3h"], "habit": "factory_03_h11"}

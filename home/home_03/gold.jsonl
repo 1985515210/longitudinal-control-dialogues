@@ -1,0 +1,130 @@
+{"id": "home_03_d03_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d03_t06", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d03_t09", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d04_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d04_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d04_t06", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d05_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d05_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d05_t07", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d07_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d07_t07", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 25, "speed": "LOW"}}, "recall": ["device_type", "device", "action", "setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d07_t10", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["device_type", "device", "action", "percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d08_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d08_t07", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 25, "speed": "LOW"}}, "recall": ["action", "setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d08_t09", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["action", "percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d09_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d09_t08", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 25, "speed": "LOW"}}, "recall": ["device_type", "device", "setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d09_t09", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["device_type", "device", "percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d10_t02", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d10_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d10_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness"], "habit": "home_03_h01"}
+{"id": "home_03_d10_t05", "expect": "ask", "ask": ["brightness"], "habit": "home_03_h14"}
+{"id": "home_03_d10_t06", "expect": "execute", "action": {"device": "Master Bedroom Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h06"}
+{"id": "home_03_d10_t07", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d10_t08", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 25, "speed": "LOW"}}, "recall": ["action"], "habit": "home_03_h02"}
+{"id": "home_03_d10_t12", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d10_t14", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "close", "params": {"percentage": 0}}, "recall": ["action"], "habit": "home_03_h23"}
+{"id": "home_03_d11_t01", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d11_t02", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d11_t03", "expect": "execute", "action": {"device": "Master Bedroom Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h06"}
+{"id": "home_03_d11_t04", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d11_t05", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d11_t08", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d12_t03", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d12_t04", "expect": "execute", "action": {"device": "Master Bedroom Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h06"}
+{"id": "home_03_d12_t05", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d12_t06", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h02"}
+{"id": "home_03_d12_t07", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["mode"], "habit": "home_03_h02"}
+{"id": "home_03_d12_t08", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["speed"], "habit": "home_03_h02"}
+{"id": "home_03_d12_t09", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d12_t10", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d13_t02", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d13_t03", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device"], "habit": "home_03_h04"}
+{"id": "home_03_d13_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device_type", "device"], "habit": "home_03_h01"}
+{"id": "home_03_d13_t05", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d14_t02", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["action"], "habit": "home_03_h01"}
+{"id": "home_03_d14_t03", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["action"], "habit": "home_03_h04"}
+{"id": "home_03_d14_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 25, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h02"}
+{"id": "home_03_d14_t08", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d15_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device_type", "device", "action"], "habit": "home_03_h01"}
+{"id": "home_03_d15_t04", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device_type", "device", "action"], "habit": "home_03_h04"}
+{"id": "home_03_d15_t05", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["action", "percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d16_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device_type", "device", "brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d16_t04", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device_type", "device", "brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d17_t02", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["action", "brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d17_t03", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["action", "brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d18_t03", "expect": "ask", "ask": ["brightness"], "habit": "home_03_h14"}
+{"id": "home_03_d18_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device_type", "device", "action", "brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d18_t05", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device_type", "device", "action", "brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d18_t06", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["device_type", "device", "percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d24_t04", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"setTemp": 25, "mode": "HEAT", "speed": "MEDIUM"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h08"}
+{"id": "home_03_d25_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d25_t07", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d25_t11", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d26_t04", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d26_t06", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d26_t10", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d27_t03", "expect": "ask", "ask": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d27_t06", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d27_t10", "expect": "ask", "ask": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d28_t02", "expect": "ask", "ask": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d28_t04", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d28_t06", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d28_t07", "expect": "ask", "ask": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d28_t09", "expect": "ask", "ask": ["action"], "habit": "home_03_h23"}
+{"id": "home_03_d29_t02", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": [], "habit": "home_03_h01"}
+{"id": "home_03_d29_t03", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h01"}
+{"id": "home_03_d29_t04", "expect": "execute", "action": {"device": "Master Bedroom Curtain", "action": "set", "params": {"percentage": 65}}, "recall": [], "habit": "home_03_h03"}
+{"id": "home_03_d29_t06", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "off", "params": {"on": false}}, "recall": [], "habit": "home_03_h05"}
+{"id": "home_03_d29_t07", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"mode": "HEAT", "setTemp": 25, "speed": "MEDIUM"}}, "recall": ["action", "setTemp", "mode", "speed"], "habit": "home_03_h08"}
+{"id": "home_03_d30_t02", "expect": "ask", "ask": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d30_t04", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d30_t06", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d30_t07", "expect": "ask", "ask": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d31_t03", "expect": "ask", "ask": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d31_t06", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d31_t07", "expect": "ask", "ask": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d32_t03", "expect": "ask", "ask": ["device"], "habit": "home_03_h01"}
+{"id": "home_03_d32_t05", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d32_t08", "expect": "ask", "ask": ["action"], "habit": "home_03_h05"}
+{"id": "home_03_d40_t01", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 65, "on": true}}, "recall": ["device_type", "device"], "habit": "home_03_h09"}
+{"id": "home_03_d40_t02", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"setTemp": 24, "speed": "HIGH"}}, "recall": ["speed"], "habit": "home_03_h11"}
+{"id": "home_03_d40_t03", "expect": "execute", "action": {"device": "Master Bedroom Light", "action": "on", "params": {"brightness": 70, "on": true}}, "recall": ["brightness"], "habit": "home_03_h10"}
+{"id": "home_03_d44_t03", "expect": "execute", "action": {"device": "Master Bedroom Light", "action": "on", "params": {"brightness": 55, "colorTemp": 3200, "on": true}}, "recall": ["device"], "habit": "home_03_h18"}
+{"id": "home_03_d44_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d44_t05", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 70, "colorTemp": 3500, "on": true}}, "recall": ["device_type", "device", "brightness", "colorTemp"], "habit": "home_03_h21"}
+{"id": "home_03_d44_t06", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"on": true}}, "recall": ["action"], "habit": "home_03_h19"}
+{"id": "home_03_d46_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 26, "speed": "LOW"}}, "recall": ["action", "setTemp", "mode", "speed"], "habit": "home_03_h20"}
+{"id": "home_03_d47_t02", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"mode": "COOL", "setTemp": 26, "speed": "LOW"}}, "recall": ["device_type", "device", "setTemp", "mode", "speed"], "habit": "home_03_h20"}
+{"id": "home_03_d47_t04", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"setTemp": 24, "speed": "HIGH"}}, "recall": ["action", "setTemp", "speed"], "habit": "home_03_h11"}
+{"id": "home_03_d48_t02", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d49_t01", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d50_t01", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 70, "colorTemp": 3500, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h21"}
+{"id": "home_03_d51_t02", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h20"}
+{"id": "home_03_d52_t01", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d52_t02", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d53_t01", "expect": "execute", "action": {"device": "Master Bedroom Bedside Light", "action": "on", "params": {"brightness": 70, "colorTemp": 3500, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h21"}
+{"id": "home_03_d54_t01", "expect": "ask", "ask": ["brightness"], "habit": "home_03_h14"}
+{"id": "home_03_d54_t02", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d54_t03", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d54_t04", "expect": "ask", "ask": ["action"], "habit": "home_03_h23"}
+{"id": "home_03_d55_t01", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device"], "habit": "home_03_h04"}
+{"id": "home_03_d55_t02", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d56_t02", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device_type", "device", "action"], "habit": "home_03_h04"}
+{"id": "home_03_d56_t03", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d56_t04", "expect": "ask", "ask": ["device_type", "device", "action"], "habit": "home_03_h20"}
+{"id": "home_03_d57_t01", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["action", "brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d57_t02", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d57_t04", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d58_t03", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d58_t04", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d58_t06", "expect": "ask", "ask": ["device_type", "device", "action", "percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d58_t07", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"setTemp": 25, "mode": "HEAT", "speed": "MEDIUM"}}, "recall": ["setTemp", "mode", "speed"], "habit": "home_03_h08"}
+{"id": "home_03_d59_t02", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["action"], "habit": "home_03_h04"}
+{"id": "home_03_d59_t03", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d60_t02", "expect": "execute", "action": {"device": "Nina's Room Light", "action": "on", "params": {"brightness": 60, "colorTemp": 3000, "on": true}}, "recall": ["device_type", "device", "action", "brightness", "colorTemp"], "habit": "home_03_h04"}
+{"id": "home_03_d60_t03", "expect": "execute", "action": {"device": "Master Bedroom AC", "action": "set", "params": {"setTemp": 26, "mode": "COOL", "speed": "LOW"}}, "recall": ["setTemp"], "habit": "home_03_h20"}
+{"id": "home_03_d60_t04", "expect": "execute", "action": {"device": "Living Room Curtain", "action": "set", "params": {"percentage": 55}}, "recall": ["action", "percentage"], "habit": "home_03_h07"}
+{"id": "home_03_d60_t06", "expect": "ask", "ask": ["percentage"], "habit": "home_03_h03"}
+{"id": "home_03_d60_t07", "expect": "execute", "action": {"device": "Living Room AC", "action": "set", "params": {"setTemp": 24, "speed": "HIGH"}}, "recall": ["speed"], "habit": "home_03_h11"}

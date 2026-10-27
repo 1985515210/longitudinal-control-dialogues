@@ -1,0 +1,142 @@
+[
+ {
+  "id": "building_03_h01",
+  "teaching": [
+   "building_03_d01_t19",
+   "building_03_d02_t18",
+   "building_03_d03_t17",
+   "building_03_d06_t02"
+  ]
+ },
+ {
+  "id": "building_03_h02",
+  "teaching": [
+   "building_03_d01_t17",
+   "building_03_d02_t14",
+   "building_03_d03_t14",
+   "building_03_d06_t01"
+  ]
+ },
+ {
+  "id": "building_03_h03",
+  "teaching": [
+   "building_03_d07_t15",
+   "building_03_d08_t15",
+   "building_03_d09_t20"
+  ]
+ },
+ {
+  "id": "building_03_h04",
+  "teaching": [
+   "building_03_d01_t21",
+   "building_03_d02_t20",
+   "building_03_d03_t19",
+   "building_03_d06_t03"
+  ]
+ },
+ {
+  "id": "building_03_h05",
+  "teaching": [
+   "building_03_d37_t10",
+   "building_03_d38_t13",
+   "building_03_d39_t09"
+  ]
+ },
+ {
+  "id": "building_03_h06",
+  "teaching": [
+   "building_03_d07_t12",
+   "building_03_d08_t13",
+   "building_03_d09_t15"
+  ]
+ },
+ {
+  "id": "building_03_h07",
+  "teaching": [
+   "building_03_d25_t11",
+   "building_03_d26_t04",
+   "building_03_d27_t02",
+   "building_03_d41_t01"
+  ],
+  "correction": {
+   "turn": "building_03_d41_t01",
+   "old": {
+    "device": "Office 16 Window 31",
+    "action": "set_position",
+    "params": {
+     "openingPct": 35
+    }
+   },
+   "new": {
+    "device": "Office 16 Fresh-air Ventilation",
+    "action": "set",
+    "params": {
+     "airflowPct": 75
+    }
+   }
+  }
+ },
+ {
+  "id": "building_03_h08",
+  "teaching": [
+   "building_03_d25_t10",
+   "building_03_d26_t03",
+   "building_03_d27_t01"
+  ]
+ },
+ {
+  "id": "building_03_h09",
+  "teaching": [
+   "building_03_d25_t12",
+   "building_03_d26_t05",
+   "building_03_d27_t03",
+   "building_03_d41_t03"
+  ],
+  "correction": {
+   "turn": "building_03_d41_t03",
+   "old": {
+    "device": "Office 16 Window 31",
+    "action": "close",
+    "params": {}
+   },
+   "new": {
+    "device": "Office 16 Window 31",
+    "action": "open",
+    "params": {}
+   }
+  }
+ },
+ {
+  "id": "building_03_h10",
+  "teaching": [
+   "building_03_d41_t02",
+   "building_03_d42_t09",
+   "building_03_d43_t11"
+  ],
+  "correction": {
+   "turn": "building_03_d41_t02",
+   "old": {
+    "device": "Office 4 Fresh-air Ventilation",
+    "action": "set",
+    "params": {
+     "airflowPct": 45
+    }
+   },
+   "new": {
+    "device": "Office 4 Fresh-air Ventilation",
+    "action": "set",
+    "params": {
+     "airflowPct": 55
+    }
+   }
+  }
+ },
+ {
+  "id": "building_03_h11",
+  "teaching": [
+   "building_03_d45_t14",
+   "building_03_d46_t13",
+   "building_03_d47_t01"
+  ]
+ }
+]

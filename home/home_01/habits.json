@@ -1,0 +1,324 @@
+[
+ {
+  "id": "home_01_h01",
+  "teaching": [
+   "home_01_d01_t02",
+   "home_01_d02_t02",
+   "home_01_d03_t02",
+   "home_01_d06_t01",
+   "home_01_d28_t03",
+   "home_01_d29_t02",
+   "home_01_d30_t02"
+  ]
+ },
+ {
+  "id": "home_01_h02",
+  "teaching": [
+   "home_01_d01_t04",
+   "home_01_d02_t04",
+   "home_01_d03_t04",
+   "home_01_d06_t02"
+  ]
+ },
+ {
+  "id": "home_01_h03",
+  "teaching": [
+   "home_01_d01_t06",
+   "home_01_d02_t07",
+   "home_01_d03_t07",
+   "home_01_d06_t04",
+   "home_01_d28_t07",
+   "home_01_d29_t04",
+   "home_01_d30_t04"
+  ]
+ },
+ {
+  "id": "home_01_h04",
+  "teaching": [
+   "home_01_d07_t02",
+   "home_01_d08_t02",
+   "home_01_d09_t01"
+  ]
+ },
+ {
+  "id": "home_01_h05",
+  "teaching": [
+   "home_01_d07_t12",
+   "home_01_d08_t12",
+   "home_01_d09_t09",
+   "home_01_d28_t10",
+   "home_01_d29_t05",
+   "home_01_d30_t07"
+  ]
+ },
+ {
+  "id": "home_01_h06",
+  "teaching": [
+   "home_01_d07_t05",
+   "home_01_d08_t05",
+   "home_01_d09_t03"
+  ]
+ },
+ {
+  "id": "home_01_h07",
+  "teaching": [
+   "home_01_d07_t06",
+   "home_01_d08_t06",
+   "home_01_d09_t04"
+  ]
+ },
+ {
+  "id": "home_01_h08",
+  "teaching": [
+   "home_01_d19_t02",
+   "home_01_d19_t03",
+   "home_01_d19_t04",
+   "home_01_d20_t02",
+   "home_01_d20_t03",
+   "home_01_d20_t04",
+   "home_01_d21_t01",
+   "home_01_d21_t02",
+   "home_01_d21_t03",
+   "home_01_d22_t01",
+   "home_01_d23_t02",
+   "home_01_d24_t02"
+  ]
+ },
+ {
+  "id": "home_01_h09",
+  "teaching": [
+   "home_01_d37_t02",
+   "home_01_d38_t03",
+   "home_01_d39_t03"
+  ]
+ },
+ {
+  "id": "home_01_h10",
+  "teaching": [
+   "home_01_d37_t04",
+   "home_01_d38_t05",
+   "home_01_d39_t05"
+  ]
+ },
+ {
+  "id": "home_01_h11",
+  "teaching": [
+   "home_01_d37_t03",
+   "home_01_d38_t04",
+   "home_01_d39_t04"
+  ]
+ },
+ {
+  "id": "home_01_h12",
+  "teaching": [
+   "home_01_d07_t11",
+   "home_01_d08_t11",
+   "home_01_d09_t08"
+  ]
+ },
+ {
+  "id": "home_01_h13",
+  "teaching": [
+   "home_01_d25_t08",
+   "home_01_d26_t07",
+   "home_01_d27_t07",
+   "home_01_d41_t04",
+   "home_01_d42_t06",
+   "home_01_d43_t04"
+  ]
+ },
+ {
+  "id": "home_01_h14",
+  "teaching": [
+   "home_01_d25_t03",
+   "home_01_d26_t02",
+   "home_01_d27_t01"
+  ]
+ },
+ {
+  "id": "home_01_h15",
+  "teaching": [
+   "home_01_d25_t09",
+   "home_01_d26_t08",
+   "home_01_d27_t08"
+  ]
+ },
+ {
+  "id": "home_01_h16",
+  "teaching": [
+   "home_01_d25_t05",
+   "home_01_d26_t04",
+   "home_01_d27_t04"
+  ]
+ },
+ {
+  "id": "home_01_h17",
+  "teaching": [
+   "home_01_d41_t01",
+   "home_01_d42_t02",
+   "home_01_d43_t01"
+  ],
+  "correction": {
+   "turn": "home_01_d41_t01",
+   "old": {
+    "device": "Living Room Reading Light",
+    "action": "on",
+    "params": {
+     "brightness": 35,
+     "colorTemp": 3200
+    }
+   },
+   "new": {
+    "device": "Living Room Main Light",
+    "action": "on",
+    "params": {
+     "brightness": 35,
+     "colorTemp": 3200
+    }
+   }
+  }
+ },
+ {
+  "id": "home_01_h18",
+  "teaching": [
+   "home_01_d41_t05",
+   "home_01_d42_t07",
+   "home_01_d43_t05"
+  ],
+  "correction": {
+   "turn": "home_01_d41_t05",
+   "old": {
+    "device": "Living Room Reading Light",
+    "action": "off",
+    "params": {}
+   },
+   "new": {
+    "device": "Living Room Reading Light",
+    "action": "on",
+    "params": {}
+   }
+  }
+ },
+ {
+  "id": "home_01_h19",
+  "teaching": [
+   "home_01_d41_t02",
+   "home_01_d42_t03",
+   "home_01_d43_t02"
+  ],
+  "correction": {
+   "turn": "home_01_d41_t02",
+   "old": {
+    "device": "Living Room AC",
+    "action": "set",
+    "params": {
+     "mode": "COOL",
+     "setTemp": 23,
+     "speed": "LOW"
+    }
+   },
+   "new": {
+    "device": "Living Room AC",
+    "action": "set",
+    "params": {
+     "mode": "COOL",
+     "setTemp": 24,
+     "speed": "LOW"
+    }
+   }
+  }
+ },
+ {
+  "id": "home_01_h20",
+  "teaching": [
+   "home_01_d41_t03",
+   "home_01_d42_t05",
+   "home_01_d43_t03"
+  ],
+  "correction": {
+   "turn": "home_01_d41_t03",
+   "old": {
+    "device": "Living Room Main Light",
+    "action": "on",
+    "params": {
+     "brightness": 40,
+     "colorTemp": 3000
+    }
+   },
+   "new": {
+    "device": "Living Room Reading Light",
+    "action": "on",
+    "params": {
+     "brightness": 50,
+     "colorTemp": 3500
+    }
+   }
+  }
+ },
+ {
+  "id": "home_01_h21",
+  "teaching": [
+   "home_01_d45_t01",
+   "home_01_d46_t03",
+   "home_01_d47_t02"
+  ]
+ },
+ {
+  "id": "home_01_h22",
+  "teaching": [
+   "home_01_d08_t04"
+  ]
+ },
+ {
+  "id": "home_01_h23",
+  "teaching": [
+   "home_01_d25_t02"
+  ]
+ },
+ {
+  "id": "home_01_h24",
+  "teaching": [
+   "home_01_d38_t02",
+   "home_01_d39_t02"
+  ]
+ },
+ {
+  "id": "home_01_h25",
+  "teaching": [
+   "home_01_d42_t04"
+  ]
+ },
+ {
+  "id": "home_01_h26",
+  "teaching": [
+   "home_01_d07_t13",
+   "home_01_d08_t13",
+   "home_01_d09_t10",
+   "home_01_d28_t12"
+  ]
+ },
+ {
+  "id": "home_01_h27",
+  "teaching": [
+   "home_01_d25_t11",
+   "home_01_d26_t10",
+   "home_01_d27_t10"
+  ]
+ },
+ {
+  "id": "home_01_h28",
+  "teaching": [
+   "home_01_d07_t10",
+   "home_01_d08_t10",
+   "home_01_d09_t07"
+  ]
+ },
+ {
+  "id": "home_01_h29",
+  "teaching": [
+   "home_01_d25_t07",
+   "home_01_d26_t06",
+   "home_01_d27_t06"
+  ]
+ }
+]

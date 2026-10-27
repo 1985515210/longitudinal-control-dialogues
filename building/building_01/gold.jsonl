@@ -1,0 +1,69 @@
+{"id": "building_01_d04_t05", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d04_t06", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d04_t08", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d05_t01", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d05_t02", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d05_t03", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d10_t24", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "off", "params": {}}, "recall": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d10_t25", "expect": "execute", "action": {"device": "Office B Workstation Plug 2", "action": "on", "params": {}}, "recall": ["device_type", "device"], "habit": "building_01_h07"}
+{"id": "building_01_d10_t26", "expect": "execute", "action": {"device": "Office D Door", "action": "unlock", "params": {}}, "recall": ["action"], "habit": "building_01_h04"}
+{"id": "building_01_d11_t13", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "off", "params": {}}, "recall": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d11_t14", "expect": "execute", "action": {"device": "Office B Workstation Plug 2", "action": "on", "params": {}}, "recall": ["device_type", "device", "action"], "habit": "building_01_h07"}
+{"id": "building_01_d11_t15", "expect": "execute", "action": {"device": "Office D Door", "action": "unlock", "params": {}}, "recall": ["action"], "habit": "building_01_h04"}
+{"id": "building_01_d12_t01", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d12_t02", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d13_t27", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d13_t28", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d13_t29", "expect": "execute", "action": {"device": "Office B Workstation Plug 2", "action": "on", "params": {}}, "recall": ["device_type", "device"], "habit": "building_01_h07"}
+{"id": "building_01_d14_t10", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["action", "openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d14_t19", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d14_t20", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "off", "params": {}}, "recall": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d15_t24", "expect": "execute", "action": {"device": "Office B Workstation Plug 2", "action": "on", "params": {}}, "recall": ["device_type", "device", "action"], "habit": "building_01_h07"}
+{"id": "building_01_d16_t21", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d16_t26", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["device_type", "device", "brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d17_t26", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d18_t04", "expect": "ask", "ask": ["action", "device", "device_type"], "habit": "building_01_h02"}
+{"id": "building_01_d18_t05", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["device_type", "device", "action", "brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d19_t03", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d20_t21", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d21_t23", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d22_t26", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d23_t29", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 35}}, "recall": ["brightnessPct"], "habit": "building_01_h01"}
+{"id": "building_01_d24_t21", "expect": "execute", "action": {"device": "Office B Window", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d28_t16", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d28_t17", "expect": "ask", "ask": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d28_t18", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_01_h07"}
+{"id": "building_01_d29_t19", "expect": "execute", "action": {"device": "Office B Workstation Plug 2", "action": "on", "params": {}}, "recall": ["action"], "habit": "building_01_h07"}
+{"id": "building_01_d30_t17", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d30_t21", "expect": "ask", "ask": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d30_t23", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_01_h07"}
+{"id": "building_01_d32_t04", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d32_t05", "expect": "ask", "ask": ["action"], "habit": "building_01_h03"}
+{"id": "building_01_d32_t06", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_01_h07"}
+{"id": "building_01_d40_t01", "expect": "execute", "action": {"device": "Office E Lighting", "action": "set", "params": {"brightnessPct": 55}}, "recall": ["brightnessPct"], "habit": "building_01_h06"}
+{"id": "building_01_d44_t25", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d44_t26", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "on", "params": {}}, "recall": ["action"], "habit": "building_01_h10"}
+{"id": "building_01_d44_t27", "expect": "execute", "action": {"device": "Office B Lighting", "action": "on", "params": {}}, "recall": ["device_type", "device"], "habit": "building_01_h08"}
+{"id": "building_01_d48_t22", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d49_t27", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d50_t22", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d51_t21", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d52_t23", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d53_t08", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d54_t05", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d54_t06", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d55_t28", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["device_type", "device", "brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d55_t30", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d55_t31", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "on", "params": {}}, "recall": ["action"], "habit": "building_01_h10"}
+{"id": "building_01_d56_t18", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d56_t22", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d56_t23", "expect": "ask", "ask": ["action", "device", "device_type"], "habit": "building_01_h08"}
+{"id": "building_01_d57_t24", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d57_t26", "expect": "execute", "action": {"device": "Office C Workstation Plug 1", "action": "on", "params": {}}, "recall": ["action"], "habit": "building_01_h10"}
+{"id": "building_01_d58_t24", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d58_t26", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d59_t25", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["device_type", "device", "brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d59_t26", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["action", "brightnessPct"], "habit": "building_01_h11"}
+{"id": "building_01_d60_t05", "expect": "execute", "action": {"device": "Office E Lighting", "action": "on", "params": {"brightnessPct": 65}}, "recall": ["brightnessPct"], "habit": "building_01_h05"}
+{"id": "building_01_d60_t06", "expect": "ask", "ask": ["openingPct"], "habit": "building_01_h02"}
+{"id": "building_01_d60_t07", "expect": "execute", "action": {"device": "Office A Lighting", "action": "on", "params": {"brightnessPct": 45}}, "recall": ["brightnessPct"], "habit": "building_01_h11"}

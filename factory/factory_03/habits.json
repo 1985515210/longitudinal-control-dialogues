@@ -1,0 +1,136 @@
+[
+ {
+  "id": "factory_03_h01",
+  "teaching": [
+   "factory_03_d01_t06",
+   "factory_03_d03_t08",
+   "factory_03_d05_t06",
+   "factory_03_d09_t03"
+  ]
+ },
+ {
+  "id": "factory_03_h02",
+  "teaching": [
+   "factory_03_d01_t02",
+   "factory_03_d03_t02",
+   "factory_03_d05_t02",
+   "factory_03_d09_t01"
+  ]
+ },
+ {
+  "id": "factory_03_h03",
+  "teaching": [
+   "factory_03_d01_t08",
+   "factory_03_d03_t10",
+   "factory_03_d05_t08",
+   "factory_03_d09_t04"
+  ]
+ },
+ {
+  "id": "factory_03_h04",
+  "teaching": [
+   "factory_03_d01_t04",
+   "factory_03_d03_t04",
+   "factory_03_d05_t04",
+   "factory_03_d09_t02"
+  ]
+ },
+ {
+  "id": "factory_03_h05",
+  "teaching": [
+   "factory_03_d10_t04",
+   "factory_03_d11_t04",
+   "factory_03_d12_t08",
+   "factory_03_d22_t01",
+   "factory_03_d23_t01",
+   "factory_03_d24_t05",
+   "factory_03_d28_t06",
+   "factory_03_d29_t22",
+   "factory_03_d30_t01"
+  ]
+ },
+ {
+  "id": "factory_03_h06",
+  "teaching": [
+   "factory_03_d40_t02",
+   "factory_03_d41_t01",
+   "factory_03_d42_t01"
+  ]
+ },
+ {
+  "id": "factory_03_h07",
+  "teaching": [
+   "factory_03_d40_t03",
+   "factory_03_d41_t02",
+   "factory_03_d42_t02"
+  ]
+ },
+ {
+  "id": "factory_03_h08",
+  "teaching": [
+   "factory_03_d10_t05",
+   "factory_03_d11_t05",
+   "factory_03_d12_t09",
+   "factory_03_d45_t04",
+   "factory_03_d46_t04",
+   "factory_03_d48_t04",
+   "factory_03_d49_t02",
+   "factory_03_d50_t02"
+  ],
+  "correction": {
+   "turn": "factory_03_d44_t03",
+   "old": {
+    "device": "Column 06 Air Flow",
+    "action": "set",
+    "params": {
+     "airFlowNm3h": 278
+    }
+   },
+   "new": {
+    "device": "Column 06 Air Flow",
+    "action": "set",
+    "params": {
+     "airFlowNm3h": 283.0
+    }
+   }
+  }
+ },
+ {
+  "id": "factory_03_h09",
+  "teaching": [
+   "factory_03_d10_t03",
+   "factory_03_d11_t02",
+   "factory_03_d12_t01",
+   "factory_03_d45_t03",
+   "factory_03_d46_t03",
+   "factory_03_d48_t03",
+   "factory_03_d49_t01",
+   "factory_03_d50_t01"
+  ],
+  "correction": {
+   "turn": "factory_03_d44_t02",
+   "old": {
+    "device": "Column 06 Air Flow",
+    "action": "set",
+    "params": {
+     "airFlowNm3h": 293
+    }
+   },
+   "new": {
+    "device": "Column 06 Froth Level",
+    "action": "set",
+    "params": {
+     "levelMm": 488.0
+    }
+   }
+  }
+ },
+ {
+  "id": "factory_03_h10",
+  "teaching": []
+ },
+ {
+  "id": "factory_03_h11",
+  "teaching": []
+ }
+]

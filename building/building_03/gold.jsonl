@@ -1,0 +1,68 @@
+{"id": "building_03_d04_t17", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d04_t18", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d04_t19", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d05_t02", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d05_t03", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d05_t04", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d10_t12", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "set_position", "params": {"openingPct": 35}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h06"}
+{"id": "building_03_d10_t14", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "close", "params": {}}, "recall": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d11_t09", "expect": "ask", "ask": ["action"], "habit": "building_03_h06"}
+{"id": "building_03_d11_t10", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "close", "params": {}}, "recall": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d12_t02", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d12_t03", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d13_t01", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d13_t02", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "set_position", "params": {"openingPct": 35}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h06"}
+{"id": "building_03_d13_t03", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d14_t10", "expect": "ask", "ask": ["action"], "habit": "building_03_h02"}
+{"id": "building_03_d14_t11", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["action", "airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d14_t12", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "close", "params": {}}, "recall": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d15_t11", "expect": "ask", "ask": ["action"], "habit": "building_03_h06"}
+{"id": "building_03_d16_t04", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d16_t05", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["device_type", "device", "airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d17_t10", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["action", "airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d18_t11", "expect": "ask", "ask": ["action"], "habit": "building_03_h02"}
+{"id": "building_03_d18_t12", "expect": "ask", "ask": ["action", "device", "device_type"], "habit": "building_03_h01"}
+{"id": "building_03_d19_t03", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d20_t01", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d21_t11", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d22_t11", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d23_t12", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 45}}, "recall": ["airflowPct"], "habit": "building_03_h01"}
+{"id": "building_03_d24_t14", "expect": "execute", "action": {"device": "Office 7 Window 13", "action": "set_position", "params": {"openingPct": 45}}, "recall": ["device_type", "device", "openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d28_t06", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d28_t07", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_03_h06"}
+{"id": "building_03_d28_t09", "expect": "ask", "ask": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d29_t12", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "set_position", "params": {"openingPct": 35}}, "recall": ["openingPct"], "habit": "building_03_h06"}
+{"id": "building_03_d30_t12", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d30_t14", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_03_h06"}
+{"id": "building_03_d30_t16", "expect": "ask", "ask": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d32_t10", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d32_t11", "expect": "ask", "ask": ["device", "device_type"], "habit": "building_03_h06"}
+{"id": "building_03_d32_t12", "expect": "ask", "ask": ["action"], "habit": "building_03_h03"}
+{"id": "building_03_d40_t01", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h05"}
+{"id": "building_03_d44_t13", "expect": "execute", "action": {"device": "Office 16 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 75}}, "recall": ["device_type", "device", "airflowPct"], "habit": "building_03_h07"}
+{"id": "building_03_d44_t14", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d44_t15", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "open", "params": {}}, "recall": ["action"], "habit": "building_03_h09"}
+{"id": "building_03_d48_t01", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d49_t15", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d50_t11", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["action", "airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d51_t16", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d52_t14", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["action", "airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d53_t10", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d54_t03", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d54_t04", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d55_t01", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["device_type", "device", "airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d55_t02", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["action", "airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d55_t03", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "open", "params": {}}, "recall": ["action"], "habit": "building_03_h09"}
+{"id": "building_03_d56_t12", "expect": "ask", "ask": ["action", "device", "device_type"], "habit": "building_03_h07"}
+{"id": "building_03_d56_t13", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d56_t14", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d57_t01", "expect": "execute", "action": {"device": "Office 16 Window 31", "action": "open", "params": {}}, "recall": ["action"], "habit": "building_03_h09"}
+{"id": "building_03_d57_t18", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d58_t19", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d58_t20", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d59_t17", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["device_type", "device", "airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d59_t18", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["action", "airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d60_t15", "expect": "ask", "ask": ["openingPct"], "habit": "building_03_h02"}
+{"id": "building_03_d60_t16", "expect": "execute", "action": {"device": "Office 7 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 65}}, "recall": ["airflowPct"], "habit": "building_03_h04"}
+{"id": "building_03_d60_t17", "expect": "execute", "action": {"device": "Office 4 Fresh-air Ventilation", "action": "set", "params": {"airflowPct": 55}}, "recall": ["airflowPct"], "habit": "building_03_h10"}
+{"id": "building_03_d60_t18", "expect": "ask", "ask": ["action"], "habit": "building_03_h03"}

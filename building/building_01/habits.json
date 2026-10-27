@@ -1,0 +1,146 @@
+[
+ {
+  "id": "building_01_h01",
+  "teaching": [
+   "building_01_d01_t35",
+   "building_01_d02_t25",
+   "building_01_d03_t30",
+   "building_01_d06_t28"
+  ]
+ },
+ {
+  "id": "building_01_h02",
+  "teaching": [
+   "building_01_d01_t27",
+   "building_01_d02_t20",
+   "building_01_d03_t24",
+   "building_01_d06_t21"
+  ]
+ },
+ {
+  "id": "building_01_h03",
+  "teaching": [
+   "building_01_d07_t26",
+   "building_01_d08_t27",
+   "building_01_d09_t04"
+  ]
+ },
+ {
+  "id": "building_01_h04",
+  "teaching": [
+   "building_01_d07_t28",
+   "building_01_d08_t29",
+   "building_01_d09_t06"
+  ]
+ },
+ {
+  "id": "building_01_h05",
+  "teaching": [
+   "building_01_d01_t29",
+   "building_01_d02_t22",
+   "building_01_d03_t26",
+   "building_01_d06_t22"
+  ]
+ },
+ {
+  "id": "building_01_h06",
+  "teaching": [
+   "building_01_d37_t22",
+   "building_01_d38_t02",
+   "building_01_d39_t13"
+  ]
+ },
+ {
+  "id": "building_01_h07",
+  "teaching": [
+   "building_01_d07_t27",
+   "building_01_d08_t28",
+   "building_01_d09_t05"
+  ]
+ },
+ {
+  "id": "building_01_h08",
+  "teaching": [
+   "building_01_d25_t06",
+   "building_01_d26_t04",
+   "building_01_d27_t04",
+   "building_01_d41_t35"
+  ],
+  "correction": {
+   "turn": "building_01_d41_t35",
+   "old": {
+    "device": "Office B Workstation Plug 2",
+    "action": "on",
+    "params": {}
+   },
+   "new": {
+    "device": "Office B Lighting",
+    "action": "on",
+    "params": {}
+   }
+  }
+ },
+ {
+  "id": "building_01_h09",
+  "teaching": [
+   "building_01_d25_t03",
+   "building_01_d26_t02",
+   "building_01_d27_t02"
+  ]
+ },
+ {
+  "id": "building_01_h10",
+  "teaching": [
+   "building_01_d25_t05",
+   "building_01_d26_t03",
+   "building_01_d27_t03",
+   "building_01_d41_t34"
+  ],
+  "correction": {
+   "turn": "building_01_d41_t34",
+   "old": {
+    "device": "Office C Workstation Plug 1",
+    "action": "off",
+    "params": {}
+   },
+   "new": {
+    "device": "Office C Workstation Plug 1",
+    "action": "on",
+    "params": {}
+   }
+  }
+ },
+ {
+  "id": "building_01_h11",
+  "teaching": [
+   "building_01_d41_t33",
+   "building_01_d42_t28",
+   "building_01_d43_t27"
+  ],
+  "correction": {
+   "turn": "building_01_d41_t33",
+   "old": {
+    "device": "Office A Lighting",
+    "action": "on",
+    "params": {
+     "brightnessPct": 35
+    }
+   },
+   "new": {
+    "device": "Office A Lighting",
+    "action": "on",
+    "params": {
+     "brightnessPct": 45
+    }
+   }
+  }
+ },
+ {
+  "id": "building_01_h12",
+  "teaching": [
+   "building_01_d45_t27",
+   "building_01_d46_t05",
+   "building_01_d47_t15"
+  ]
+ }
+]
